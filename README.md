@@ -11,5 +11,5 @@ Implementação de interface de login em HTML/CSS + Tailwind
 
 ## Screenshots
 
-![App Screenshot](https://ibb.co/f0bWQd9)
+<a href="https://ibb.co/f0bWQd9"><img src="https://i.ibb.co/NYXq72r/Captura-de-tela-2024-03-11-104635.png" alt="Captura-de-tela-2024-03-11-104635" border="0" /></a>
 
