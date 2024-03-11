@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="fonts.css" />
+  </head>
+  <body
+    class="flex items-center justify-center w-screen h-screen bg-gradient-to-br from-zinc-900 to-zinc-800"
+  >
+    <section class="flex w-5/6 md:w-1/2 lg:w-7/12 rounded-3xl bg-zinc-950">
+      <section
+        id="form"
+        class="flex-col px-10 pb-10 text-white baflex lg:basis-5/12 basis-full"
+      >
+        <h1 class="my-12 text-3xl font-bold text-white font-inter">
+          Faça o seu login
+          <span
+            class="via-46% inline-block h-3 w-3 rounded-full bg-gradient-to-tr from-[#4158D0] via-[#C850C0] to-[#FFCC70]"
+          ></span>
+        </h1>
+        <form action="" class="flex flex-col gap-5 text-gray-400">
+          <label class="h-16 group">
+            email
+            <div
+              class="via-46% h-10 w-full rounded-lg bg-gradient-to-tr from-[#4158D0] via-[#C850C0] to-[#FFCC70] opacity-0 blur-lg transition-opacity ease-in group-focus-within:opacity-100"
+            ></div>
+            <div
+              class="via-46% relative -top-10 rounded-lg bg-none from-[#4158D0] via-[#C850C0] to-[#FFCC70] p-[1px] focus-within:bg-gradient-to-tr"
+            >
+              <input
+                type="email"
+                id="input_email"
+                class="w-full h-10 p-2 rounded-lg outline-none appearance-none bg-zinc-800"
+              />
+            </div>
+          </label>
+          <label class="h-16 group">
+            senha
+            <div
+              class="via-46% h-10 w-full rounded-lg bg-gradient-to-tr from-[#4158D0] via-[#C850C0] to-[#FFCC70] opacity-0 blur-lg transition-opacity ease-in group-focus-within:opacity-100"
+            ></div>
+            <div
+              class="via-46% relative -top-10 rounded-lg bg-none from-[#4158D0] via-[#C850C0] to-[#FFCC70] p-[1px] focus-within:bg-gradient-to-tr"
+            >
+              <input
+                type="password"
+                id="input_senha"
+                class="w-full h-10 p-2 rounded-lg outline-none appearance-none bg-zinc-800"
+              />
+            </div>
+          </label>
+          <a class="text-sm text-right underline cursor-pointer"
+            >esqueci minha senha</a
+          >
+          <button
+            type="submit"
+            id="button_login"
+            class="via-46% h-10 rounded-lg bg-gradient-to-tr from-[#4158D0] via-[#C850C0] to-[#FFCC70] font-semibold text-white"
+          >
+            Entrar
+          </button>
+          <a class="text-sm text-center underline cursor-pointer"
+            >Ainda não tenho uma conta</a
+          >
+        </form>
+      </section>
+      <section
+        id="picture"
+        class="w-0 lg:w-7/12 bg-[url('/resources/background_form.png')] bg-cover rounded-r-3xl shadow-[inset_300px_30px_400px_-15px_theme('colors.zinc.950')] opacity-70"
+      ></section>
+    </section>
+  </body>
+</html>
