@@ -1,7 +1,7 @@
 
 # Tela de Login com Tailwind
 
-Implementação de interface de login em HTML/CSS + Tailwind
+Implementação de interface de login em HTML + Tailwindcss
 
 
 ## Tailwind
